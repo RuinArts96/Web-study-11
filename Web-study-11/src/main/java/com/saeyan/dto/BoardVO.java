@@ -8,8 +8,10 @@ public class BoardVO {
 	private String email;
 	private String pass;
 	private String title;
+	private String content;
 	private int readcount;
 	private Timestamp writedate;
+	
 	
 	public int getNum() {
 		return num;
@@ -40,6 +42,12 @@ public class BoardVO {
 	}
 	public void setTitle(String title) {
 		this.title = title;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
 	}
 	public int getReadcount() {
 		return readcount;
